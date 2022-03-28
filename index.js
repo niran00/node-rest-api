@@ -38,6 +38,7 @@ app.all('/*', (req, res, next) =>{
 
 // API root
 app.use('/api', bookRoute)
+//app.use('/api', userRoute)
  
 // PORT
 const port = process.env.PORT || 8000;
